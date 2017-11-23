@@ -1,0 +1,273 @@
+/* ## 版面設計 ## */
+
+body {
+	margin: 24px 30px;
+	font-family: Arial,'微軟正黑體', sans-serif
+}
+
+
+
+
+/* L-size bigger than 980px */
+
+#container{
+	width: 900px;
+	margin: auto;
+}
+
+header {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+#top {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+#content {
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+
+footer {
+	margin-bottom: 30px;
+}
+
+
+
+
+/* ## 細節設計 ## */
+
+/* Header Logo */
+
+#banner {
+	float: left;
+}
+
+#banner h1 {
+	margin: 0;
+}
+
+
+#banner img {
+	vertical-align: bottom;
+	width: 150px;
+}
+
+
+
+
+/* Header Nav */
+
+nav {
+	float: right;
+	font-size: 15px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	padding-top: 32px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+nav li {
+	list-style-type: none;
+	float: left;
+}
+
+nav li a {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+	border-bottom: solid 3px transparent;
+	color: #000000;
+}
+
+nav li a:hover {
+	border-bottom-color: #F5B5B5;
+}
+
+
+/*  top 圖片  */
+
+#top img{
+	float: left;
+	vertical-align: bottom;
+	width: 900px;
+}
+
+
+/*  top lead  */
+
+#top #lead a p{
+	display: none;
+}
+
+#top #lead a:hover p{
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	background-color: #000000;
+	background-position: center;
+	
+
+}
+
+#top #lead a:hover .animated{
+	animation: none;
+}
+
+
+/*  post  */
+
+
+.post{
+	float: left;
+	width: 270px;
+	margin-right: 45px;
+	margin-bottom: 45px;
+}
+
+
+.post:last-child{
+	margin-right: 0;
+}
+
+.post+.post+.post{
+	margin-right: 0;
+}
+
+.post img{
+	width: 270px;
+	height: auto;
+	vertical-align: bottom;
+	border: none;
+}
+
+
+.post a p{
+	display: none;
+}
+
+.post a:hover p{
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	background-color: #000000;
+	background-position: center;
+}
+
+
+.post a:hover .animated{
+	animation: none;
+}
+
+/*  footer  */
+
+footer{
+	background-color: #F5B5B5;
+	padding: 25px
+}
+
+footer p{
+	float: left;
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	color: #ffffff;
+
+}
+
+
+#iconmenu{
+	float: right;
+}
+
+#iconmenu ul{
+	margin: 0;
+	padding: 3px 0 0;
+}
+
+#iconmenu li{
+	display: inline;
+	list-style-type: none; 
+}
+
+#iconmenu img{
+	border: none;
+	width: 28px;
+}
+
+#submenu{
+	clear: both;
+	font-family: 'Nunito', sans-serif;
+	font-size: 15px;
+	overflow: hidden;
+}
+
+#submenu ul{
+	margin: 3px;
+	padding: 0;
+}
+
+#submenu li{
+	list-style-type: none;
+	float: left;
+}
+
+#submenu li a{
+	display: block;
+	width: auto;
+	border-right: solid 1px #ffffff;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	padding-right: 12px;
+	margin-right: 8px
+}
+
+#submenu li:last-child a{
+	border: none;
+}
+
+#submenu li+li+li a{
+	border: none;
+}
+
+small{
+	font-size: 12px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: lighter;
+	display: block;
+	color: #ffffff;
+	margin-top: -15px;
+	float: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
