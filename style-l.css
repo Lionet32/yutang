@@ -153,6 +153,36 @@ nav li a:hover {
 }
 
 
+
+
+.post2{
+	float: left;
+	width: 270px;
+	margin-right: 45px;
+	margin-bottom: 45px;
+}
+
+
+.post2:last-child{
+	margin-right: 0;
+}
+
+.post2+.post2+.post2{
+	margin-right: 0;
+}
+
+.post2 img{
+	width: 270px;
+	height: auto;
+	vertical-align: bottom;
+	border: none;
+}
+
+
+
+
+
+
 .post a p{
 	display: none;
 }
@@ -255,6 +285,54 @@ small{
 	float: right;
 
 }
+
+
+
+
+/*----------------------------------------------*/
+
+
+
+
+.container_2 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.container_2:hover .overlay {
+  opacity: 0.7;
+}
+
+.text {
+  color: #000000;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
 
 
 
