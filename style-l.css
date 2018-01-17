@@ -179,7 +179,28 @@ nav li a:hover {
 }
 
 
+.post3{
+	float: left;
+	width: 270px;
+	margin-right: 45px;
+	margin-bottom: 45px;
+}
 
+
+.post3:last-child{
+	margin-right: 0;
+}
+
+.post3+.post3+.post3{
+	margin-right: 0;
+}
+
+.post3 img{
+	width: 270px;
+	height: auto;
+	vertical-align: bottom;
+	border: none;
+}
 
 
 
@@ -201,6 +222,27 @@ nav li a:hover {
 .post a:hover .animated{
 	animation: none;
 }
+
+
+.post3 a p{
+	display: none;
+}
+
+.post3 a:hover p{
+	color: #ffffff;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	background-color: #000000;
+	background-position: center;
+}
+
+
+.post3 a:hover .animated{
+	animation: none;
+}
+
 
 /*  footer  */
 
